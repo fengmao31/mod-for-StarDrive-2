@@ -7,6 +7,10 @@
 
 游戏第一次运行后会复制基本文件进appdata里面，所以存档中的读取都是C:\Users\wwwfe\AppData\LocalLow\Zero Sum Games\StarDrive 2里面的内容。所以我们如果运行过游戏，修改的时候都是再C:\Users\wwwfe\AppData\LocalLow\Zero Sum Games\StarDrive 2里面内容。推荐安装everything软件进行搜索。
 
+everything软件下载链接https://www.voidtools.com/
+
+**小技巧**：everything除了搜索文件名称，可以搜索png等格式，还可以根据时间找出网页缓存和游戏地图缓存。
+
 # 游戏问题
 因为全科技之后，ai会建造一些糟糕的建筑，所以无法托管。
 
