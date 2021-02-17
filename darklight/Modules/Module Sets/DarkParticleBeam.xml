@@ -1,0 +1,8 @@
+﻿<?xml version="1.0"?>
+<ModuleSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ModuleType>WeaponModule</ModuleType>
+  <ModulesInSet>
+    <string>DarkParticle_3x6</string>
+    <string>DarkParticle_2x3</string>
+  </ModulesInSet>
+</ModuleSet>

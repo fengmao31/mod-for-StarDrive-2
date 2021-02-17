@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Cost>10</Cost>
+  <variantName>Spinal</variantName>
+  <!-- Size in module slots -->
+  <XSIZE>2</XSIZE>
+  <YSIZE>3</YSIZE>
+
+  <!-- Basic Stats -->
+  <Mass>10</Mass>
+  <HealthMax>1200</HealthMax>
+  <PowerDraw>10</PowerDraw>
+
+
+  <!-- for Weapons -->
+  <WeaponCategory>ParticleBeam</WeaponCategory>
+  <BeamDuration>5</BeamDuration>
+  <WhichWeapon>DarkParticleBeam</WhichWeapon>
+  <WhichSound>sd_weapon_beam_neutron_med</WhichSound>
+  <OrdPerShot>0</OrdPerShot>
+  <PowPerShot>100</PowPerShot>
+  <PlaySalvoSound>false</PlaySalvoSound> <!-- plays sound once rather than for each projectile -->
+  <!-- The Damage Graph plots damage reduction over distance. The first point should be at range 0
+       This sets the base damage. You can then increase or decrease damage over range. The graph is linear.
+       The final plot is the maximum range of the weapon. Once it exceeds that range the projectile / beam is desotryed
+  -->
+  <DamageGraph>
+    <DamagePlot>
+      <Range>0</Range>
+      <Damage>250</Damage>
+    </DamagePlot>
+    <DamagePlot>
+      <Range>300</Range>
+      <Damage>250</Damage>
+    </DamagePlot>
+  </DamageGraph>
+
+
+  <FieldOfFire>90</FieldOfFire>
+  <ShotsPerSecondBase>.2</ShotsPerSecondBase>
+  <ProjectileSpeedBase>30</ProjectileSpeedBase>
+
+  <!-- true = can be hit by other projectiles-->
+
+
+  <!-- Weapon Variants (Max 4)-->
+  <V_ArcExtend>true</V_ArcExtend>
+  <V_Overload>true</V_Overload>
+  <V_RangeExtend>true</V_RangeExtend>
+  <V_RapidFire>true</V_RapidFire>
+  <V_ArmoredModule>false</V_ArmoredModule>
+  <V_SpeedBoost>false</V_SpeedBoost>
+  <V_ProjectileHP>false</V_ProjectileHP>
+
+</ShipModule>
