@@ -27,3 +27,7 @@ Buildings里面可以自定义建筑。
 leader里面可以自定义一些领导人。
 
 Modules里面是舰船模块的贴图。里面的Module Headers是每个模块的数值；Module Sets是每种模块的显示，因为有些模块可以有多种格子的变种；Textures是舰船模块贴图。
+
+# 关于舰船模型的修改
+
+需要使用unity3d打开，可以从steam创意工坊订阅星球大战那些mod并修改研究。未尝试过。
