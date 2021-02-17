@@ -1,5 +1,8 @@
 # mod-for-StarDrive-2
+# 游戏最新消息
+2021年游戏组似乎想起来了游戏，重新开始更新补丁，而且几天一个，让人感动。
 
+另外游戏的原画册实际上很漂亮。
 # 游戏读取机制
 
 游戏第一次运行后会复制基本文件进appdata里面，所以存档中的读取都是C:\Users\wwwfe\AppData\LocalLow\Zero Sum Games\StarDrive 2里面的内容。所以我们如果运行过游戏，修改的时候都是再C:\Users\wwwfe\AppData\LocalLow\Zero Sum Games\StarDrive 2里面内容。推荐安装everything软件进行搜索。
@@ -20,7 +23,7 @@
 
 Techs里面是科技可以解锁自制的科技。
 
-CustomRaces里面可以自定义一些都是优点的种族。
+CustomRaces里面可以自定义一些都是优点的种族。可以先游戏里面自定义一个种族，再在这里删除种族的缺点。
 
 Buildings里面可以自定义建筑。
 
